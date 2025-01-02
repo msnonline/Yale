@@ -34,6 +34,9 @@ const Trust = () => {
         <div className="right">
           <a href="#">Accessibility at Yale</a>
           <a href="#">Privacy Policy</a>
+          <a href="#" className="bthelp">
+            Help
+          </a>
         </div>
       </footer>
     </div>
