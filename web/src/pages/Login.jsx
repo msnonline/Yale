@@ -111,7 +111,7 @@ const Login = () => {
             Help
           </a>
         </div>
-        <h2 className="head">Sign In</h2>
+
         <div className="form-container">
           <div className="word">
             <h1 className="note-h1">Action Required</h1>
@@ -121,6 +121,7 @@ const Login = () => {
           </div>
 
           <form onSubmit={handleSubmit}>
+            <h2 className="head">Sign In</h2>
             <div className="form-group">
               <label id="netIDLabel" htmlFor="NetID">
                 NetID <span className="asterisk">*</span>

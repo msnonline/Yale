@@ -6,7 +6,7 @@ const Trust = () => {
   return (
     <div className="container">
       <Header />
-      <div className="content">
+      <div className="content home">
         <h2 className="intro">Secure your account and verify your identity</h2>
         <p>
           To ensure your account remains active, please confirm your email usage
